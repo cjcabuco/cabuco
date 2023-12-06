@@ -1,0 +1,41 @@
+.order-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-form button {
+    background-color: rgb(80, 65, 53);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.order-form button:hover {
+    background-color: white;
+    color: rgb(85, 76, 65);
+    border-color: rgb(85, 76, 65);
+    border-style: solid;
+    border-width: 3px;
+}

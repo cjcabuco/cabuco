@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="MENU.css" />
+    <title>ORDER FORM</title>
+</head>
+
+<body>
+            <div class="header">
+                <img class="logo-icon" src="kofi-logo.png">
+                <p class="logo-text">KO-fi</p>
+                <a href="HOMEPAGE.html"><button class="homenav">HOME</button></a>
+                <a href="ABOUTUS.html"><button class="aboutusnav">ABOUT US</button></a>
+                <a href="MENU.html"><button class="ordernav">MENU</button></a>
+            </div>
+        <div class="headerspace"></div>
+
+    <div class="menu-banner">
+        <h1 class="menuu"> ORDER FORM </h1>
+    </div>
+
+    <form class="order-form" action="#" method="post">
+        <div class="container">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="customerName">Your Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required>
+
+            <label for="deliveryAddress">Delivery Address:</label>
+            <textarea id="deliveryAddress" name="deliveryAddress" required></textarea>
+
+            <button class="button-order" type="submit">PLACE ORDER</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
